@@ -6,16 +6,14 @@
 
 /* inizio header */
 
-
-
 header{
-    background-color: rgb(36, 129, 129);
-    width: 100vw;
+    background-color: rgb(173, 216, 230);
+    max-width: 2500px;
     padding-top: 15px;
 }
 
 nav{
-    background-color: orange;
+    background-color: rgb(218, 165, 32);
     max-width: 1600px;
     margin: auto;
     padding: 10px;
@@ -39,15 +37,42 @@ nav{
 }
 
 .contenitoreheader{
-    background-color: blue;
+    background-color: rgb(0, 0, 139);
     width: 100%;
     padding: 30px;
 
 }
 
 .purple{
-    background-color: plum;
+    background-color: rgb(238, 130, 238);
     max-width: 50%;
-    height: 400px;
+    min-height: 400px;
     margin: auto;
+}
+
+/* fine header */
+/* inizio main row uno */
+
+.row{
+    max-width: 2500px;
+    background-color: white;
+    padding: 30px;
+}
+
+.blocco{
+    max-width: 1600px;
+    margin: auto;
+    display: flex;
+}
+
+.left{
+    width: 70%;
+    min-height: 400px;
+    background-color: rgb(30, 144, 255);
+}
+
+.right{
+    width: 30%;
+    min-height: 400px;
+    background-color:rgb(255, 192, 203);
 }
