@@ -100,3 +100,30 @@ nav{
 }
 
 /* fine main */
+/* inzio aside */
+
+aside{
+    background-color:rgb(35, 39, 42);
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+
+#sideleft{
+    width: 25%;
+    min-height: 450px;
+    background-color:rgb(240, 128, 128) ;
+}
+
+#sideright{
+    width: 75%;
+    min-height: 450px;
+    background-color:rgb(32, 178, 170) ;
+    display: flex;
+}
+
+.colonna{
+    width: 25%;
+    min-height: 400px;
+}
+
+/* fine aside */
