@@ -8,7 +8,7 @@
 
 header{
     background-color: rgb(173, 216, 230);
-    max-width: 2500px;
+    max-width: 2400px;
     padding-top: 15px;
 }
 
@@ -54,7 +54,7 @@ nav{
 /* inizio main row uno */
 
 .row{
-    max-width: 2500px;
+    max-width: 2400px;
     padding: 30px;
 }
 
@@ -70,13 +70,13 @@ nav{
 
 .left{
     width: 70%;
-    min-height: 400px;
+    min-height: 500px;
     background-color: rgb(30, 144, 255);
 }
 
 .right{
     width: 30%;
-    min-height: 400px;
+    min-height: 500px;
     background-color:rgb(255, 192, 203);
 }
 
@@ -95,7 +95,7 @@ nav{
 /* row finale */
 
 .verde{
-    min-height: 800px;
+    min-height: 1000px;
     background-color: green;
 }
 
@@ -110,21 +110,21 @@ aside{
 }
 
 #sideleft{
-    width: 25%;
-    min-height: 500px;
+    width: 30%;
+    min-height: 600px;
     background-color:rgb(240, 128, 128) ;
 }
 
 #sideright{
-    width: 75%;
-    min-height: 500px;
+    width: 70%;
+    min-height: 600px;
     background-color:rgb(32, 178, 170) ;
     display: flex;
 }
 
 .colonna{
     width: 25%;
-    min-height: 400px;
+    min-height: 100%;
 }
 
 /* fine aside */
@@ -141,5 +141,5 @@ footer{
     margin: auto;
     display: flex;
     justify-content: space-between;
-    padding: 35px 0;
+    padding: 30px 0;
 }
